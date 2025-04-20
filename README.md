@@ -1,6 +1,11 @@
 # ETL Pipeline with AWS
 This project performs a basic ETL (Extract, Transform, Load) process using AWS S3 and AWS RDS.
 
+# Objectives
+
+- `clean_data`: Clean and preprocess the data  
+- `load_data`: Load cleaned data into a remote SQL database (AWS RDS - MySQL)  
+
 Steps
 1. Extract
     a) Upload raw CSV, JSON, and XML files to an S3 bucket.
