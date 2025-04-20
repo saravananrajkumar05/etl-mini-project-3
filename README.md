@@ -16,3 +16,10 @@ Steps
     a) Save the transformed data as transformed_data.csv.
     b) Upload the file to a different S3 bucket.
     c) Load the data into an AWS RDS database using SQLAlchemy and pandas.
+
+## Tech Stack
+
+```yaml
+language: Python
+database: MySQL (AWS RDS)
+etl-library: pandas, mysql-connector-python
