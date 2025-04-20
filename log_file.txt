@@ -1,0 +1,46 @@
+2025-04-20 12:24:38 - INFO - Files to be Uploaded : ['upload_sources/source1.csv', 'upload_sources/source1.xml', 'upload_sources/source2.xml', 'upload_sources/source2.csv', 'upload_sources/source2.json', 'upload_sources/source3.csv', 'upload_sources/source3.xml', 'upload_sources/source1.json', 'upload_sources/source3.json']
+2025-04-20 12:24:38 - INFO - Uploading the File to S3 is started
+2025-04-20 12:24:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-20 12:24:38 - INFO - Uploading upload_sources/source1.csv to s3://my-etl-project-bucket-1/source1.csv
+2025-04-20 12:24:38 - INFO - Uploading upload_sources/source1.xml to s3://my-etl-project-bucket-1/source1.xml
+2025-04-20 12:24:39 - INFO - Uploading upload_sources/source2.xml to s3://my-etl-project-bucket-1/source2.xml
+2025-04-20 12:24:39 - INFO - Uploading upload_sources/source2.csv to s3://my-etl-project-bucket-1/source2.csv
+2025-04-20 12:24:39 - INFO - Uploading upload_sources/source2.json to s3://my-etl-project-bucket-1/source2.json
+2025-04-20 12:24:39 - INFO - Uploading upload_sources/source3.csv to s3://my-etl-project-bucket-1/source3.csv
+2025-04-20 12:24:39 - INFO - Uploading upload_sources/source3.xml to s3://my-etl-project-bucket-1/source3.xml
+2025-04-20 12:24:39 - INFO - Uploading upload_sources/source1.json to s3://my-etl-project-bucket-1/source1.json
+2025-04-20 12:24:39 - INFO - Uploading upload_sources/source3.json to s3://my-etl-project-bucket-1/source3.json
+2025-04-20 12:24:39 - INFO - Files Uploaded Successfully to S3 Path
+2025-04-20 12:24:39 - INFO - Downloading Files from S3 is started
+2025-04-20 12:24:40 - INFO - Downloaded source1.csv to download_sources/source1.csv
+2025-04-20 12:24:40 - INFO - Downloaded source1.xml to download_sources/source1.xml
+2025-04-20 12:24:40 - INFO - Downloaded source2.xml to download_sources/source2.xml
+2025-04-20 12:24:41 - INFO - Downloaded source2.csv to download_sources/source2.csv
+2025-04-20 12:24:41 - INFO - Downloaded source2.json to download_sources/source2.json
+2025-04-20 12:24:41 - INFO - Downloaded source3.csv to download_sources/source3.csv
+2025-04-20 12:24:41 - INFO - Downloaded source3.xml to download_sources/source3.xml
+2025-04-20 12:24:41 - INFO - Downloaded source1.json to download_sources/source1.json
+2025-04-20 12:24:41 - INFO - Downloaded source3.json to download_sources/source3.json
+2025-04-20 12:24:41 - INFO - Extracting CSV file download_sources/source1.csv is started
+2025-04-20 12:24:41 - INFO - Extraction Completed for download_sources/source1.csv
+2025-04-20 12:24:41 - INFO - Extracting XML file download_sources/source1.xml is started
+2025-04-20 12:24:41 - INFO - Extraction Completed for download_sources/source1.xml
+2025-04-20 12:24:41 - INFO - Extracting XML file download_sources/source2.xml is started
+2025-04-20 12:24:41 - INFO - Extraction Completed for download_sources/source2.xml
+2025-04-20 12:24:41 - INFO - Extracting CSV file download_sources/source2.csv is started
+2025-04-20 12:24:41 - INFO - Extraction Completed for download_sources/source2.csv
+2025-04-20 12:24:41 - INFO - Extracting JSON file download_sources/source2.json is started
+2025-04-20 12:24:41 - INFO - Extraction Completed for download_sources/source2.json
+2025-04-20 12:24:41 - INFO - Extracting CSV file download_sources/source3.csv is started
+2025-04-20 12:24:41 - INFO - Extraction Completed for download_sources/source3.csv
+2025-04-20 12:24:41 - INFO - Extracting XML file download_sources/source3.xml is started
+2025-04-20 12:24:41 - INFO - Extraction Completed for download_sources/source3.xml
+2025-04-20 12:24:41 - INFO - Extracting JSON file download_sources/source1.json is started
+2025-04-20 12:24:41 - INFO - Extraction Completed for download_sources/source1.json
+2025-04-20 12:24:41 - INFO - Extracting JSON file download_sources/source3.json is started
+2025-04-20 12:24:41 - INFO - Extraction Completed for download_sources/source3.json
+2025-04-20 12:24:41 - INFO - Transformation Started:
+2025-04-20 12:24:41 - INFO - Transformation Ended:
+2025-04-20 12:24:41 - INFO - Loading the transformed data in to CSV file for future use
+2025-04-20 12:24:41 - INFO - Succesfully Loaded the data into csv file
+2025-04-20 12:24:41 - INFO - Loading the transformed data to database (RDS)
