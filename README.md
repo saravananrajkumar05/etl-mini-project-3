@@ -1,2 +1,24 @@
-# etl-mini-project-3
-Enhanced ETL Workflow with Python, AWS S3, RDS, and Glue
+# ETL Pipeline with AWS
+This project performs a basic ETL (Extract, Transform, Load) process using AWS S3 and AWS RDS.
+
+Steps
+1. Extract
+Upload raw CSV, JSON, and XML files to an S3 bucket.
+
+Download files from S3 for processing.
+
+2. Transform
+Convert units:
+
+Inches ➡️ Meters
+
+Pounds ➡️ Kilograms
+
+Clean and standardize the data.
+
+3. Load
+Save the transformed data as transformed_data.csv.
+
+Upload the file to a different S3 bucket.
+
+Load the data into an AWS RDS database using SQLAlchemy and pandas.
