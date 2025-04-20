@@ -23,3 +23,16 @@ Steps
 language: Python
 database: MySQL (AWS RDS)
 etl-library: pandas, mysql-connector-python
+
+steps:
+  - step: Data Ingestion
+    tool: pandas
+    description: Load CSV, JSON, XML files data 
+
+  - step: Data Cleaning
+    tasks:
+      - Converting Inched to Meters
+      - Converting Pounds to Kilograms
+
+  - step: Data Modeling & Upload
+    description: Create SQL tables and insert data into AWS RDS using mysql-connector
